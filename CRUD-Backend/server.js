@@ -12,7 +12,7 @@ const port = process.env.PORT || 3050;
 
 const db = mysql.createConnection({
     host: "sdb-70.hosting.stackcp.net",
-    user: "aproot",
+    user: "root",
     password: "snow59hr0zs",
     database: "simple_crud-35303533cf89",
 })
