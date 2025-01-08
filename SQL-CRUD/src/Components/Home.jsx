@@ -8,7 +8,7 @@ export const Home = () => {
   // Get Students Data From Api
   const getStudents = async () => {
     try {
-      const res = await fetch("http://localhost:3050/");
+      const res = await fetch("https://react-sql-backend.onrender.com/");
       const data = await res.json();
       setStudentData(data);
     } catch (error) {
